@@ -12,6 +12,7 @@ import org.testng.Assert;
 import io.github.bonigarcia.wdm.WebDriverManager;
 public class StandAloneTest_149_To_157 {
 	public static void main(String[] args) {
+// new comments are added
 		String productName = "ZARA COAT 3";
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
