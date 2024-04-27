@@ -30,7 +30,7 @@ public class BaseTest_166 {
 	public LandingPage_159 landingPage;
 	public WebDriver initializeDriver() throws IOException
 	{
-		//Properties class
+		//Properties class--
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//main//java//rahulshettyacademy//Resources//GlobalData.properties");
 //		FileInputStream fis = new FileInputStream("\\SeleniumProjectWorkspace\\EclipseNewWorkspace\\SeleniumFrameworkDesign\\src\\main\\java\\rahulshettyacademy\\Resources\\GlobalData.properties");
